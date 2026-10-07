@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizZone 🎯</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">🎯 QuizZone</div>
+
+    <nav>
+        <a href="#home">Главная</a>
+        <a href="#categories">Категории</a>
+        <a href="#quiz">Викторина</a>
+    </nav>
+
+    <button id="themeBtn">☀️</button>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <div class="badge">🔥 Новая викторина</div>
+
+        <h1>Проверь свои знания!</h1>
+
+        <p>
+            Мультфильмы • Спорт • Игры • Фильмы • Общие знания
+        </p>
+
+        <button class="start-btn" id="startBtn">
+            🚀 Начать викторину
+        </button>
+    </div>
+</section>
+
+<section id="categories">
+
+    <h2 class="section-title">📚 Категории</h2>
+
+    <div class="categories">
+
+        <div class="category">
+            <div class="icon">🎬</div>
+            <h3>Мультфильмы</h3>
+            <p>Проверь знания любимых мультфильмов</p>
+        </div>
+
+        <div class="category">
+            <div class="icon">⚽</div>
+            <h3>Спорт</h3>
+            <p>Футбол, баскетбол и другие виды спорта</p>
+        </div>
+
+        <div class="category">
+            <div class="icon">🎮</div>
+            <h3>Игры</h3>
+            <p>Minecraft, Roblox, Brawl Stars и другие</p>
+        </div>
+
+        <div class="category">
+            <div class="icon">🍿</div>
+            <h3>Фильмы</h3>
+            <p>Герои и известные фильмы</p>
+        </div>
+
+        <div class="category">
+            <div class="icon">🧠</div>
+            <h3>Общие знания</h3>
+            <p>Интересные вопросы обо всём</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="quiz-section" id="quiz">
+
+    <div class="quiz-box">
+
+        <div class="quiz-header">
+
+            <span id="questionNumber">
+                1 / 25
+            </span>
+
+            <span id="timer">
+                ⏱️ 10
+            </span>
+
+        </div>
+
+        <div class="progress-container">
+            <div id="progress"></div>
+        </div>
+
+        <h2 id="question">
+            Нажми «Начать викторину»
+        </h2>
+
+        <div id="answers"></div>
+
+        <button id="nextBtn">
+            Следующий вопрос →
+        </button>
+
+        <div id="score">
+            Счёт: 0
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    <h3>🎯 QuizZone</h3>
+    <p>Проверь свои знания и стань лучшим!</p>
+    <p>© 2026 QuizZone</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
